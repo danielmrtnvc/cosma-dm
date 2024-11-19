@@ -1,17 +1,23 @@
 select_origin: directory
-files_origin: ""
+files_origin: .\data
 nodes_origin: ""
 links_origin: ""
 nodes_online: ""
 links_online: ""
 images_origin: ""
-export_target: ""
+export_target: .\export\
 history: true
 focus_max: 2
 record_types:
   undefined:
     fill: "#858585"
     stroke: "#858585"
+  concept:
+    fill: "#984ea3"
+    stroke: "#984ea3"
+  insight:
+    fill: "#ff7f00"
+    stroke: "#ff7f00"
 link_types:
   undefined:
     stroke: simple
