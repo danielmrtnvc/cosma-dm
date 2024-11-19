@@ -1,7 +1,7 @@
 
 # Cosma Mind Map
 
-This project is a dynamic, evolving mind map that connects and visualizes the diverse knowledge I’ve explored across philosophy, technology, and the startup world. It’s designed to grow over time, linking concepts and insights to deepen understanding and fuel new ideas.
+This project is a dynamic, evolving mind map that connects and visualizes the diverse knowledge I’ve explored across philosophy, technology, and the startup world. It’s designed to grow over time, linking concepts and insights to deepen understanding and fuel new ideas!
 
 
 ## Overview
