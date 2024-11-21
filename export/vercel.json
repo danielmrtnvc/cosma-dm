@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "cosmoscope.html",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/",
+        "dest": "/cosmoscope.html"
+      }
+    ]
+  }
