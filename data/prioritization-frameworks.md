@@ -2,7 +2,7 @@
 title: Prioritization Frameworks
 id: "20241119235908"
 types:
-  - PM
+  - product_management
 ---
 
 [[20241119235942|Product Management]]
