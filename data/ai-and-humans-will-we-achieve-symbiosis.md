@@ -2,7 +2,7 @@
 title: "AI and Humans: Will We Achieve Symbiosis?"
 id: "20241121123135"
 types:
-  - AI
+  - ai
 ---
 
 [[20241121123223|AI]]
