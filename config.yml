@@ -18,6 +18,12 @@ record_types:
   insight:
     fill: "#ff7f00"
     stroke: "#ff7f00"
+  product_management:
+    fill: "#0051ff"
+    stroke: "#0051ff"
+  ai:
+    fill: "#00fffb"
+    stroke: "#00fffb"
 link_types:
   undefined:
     stroke: simple
