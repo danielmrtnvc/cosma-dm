@@ -1,14 +1,14 @@
 {
     "builds": [
       {
-        "src": "index.html",
+        "src": "cosmoscope.html",
         "use": "@vercel/static"
       }
     ],
     "routes": [
       {
         "src": "/",
-        "dest": "/index.html"
+        "dest": "/cosmoscope.html"
       }
     ]
   }
