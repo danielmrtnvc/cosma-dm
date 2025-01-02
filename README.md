@@ -98,7 +98,7 @@ Cosma supports bibliographic citations using [Pandoc syntax](https://pandoc.org/
    ```
 
 ---
-
+ 
 ### Creating a Cosmoscope
 1. Build the visualization:
    ```bash
