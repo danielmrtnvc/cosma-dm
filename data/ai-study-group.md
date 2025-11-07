@@ -21,9 +21,9 @@ We’ll learn together, meet weekly to discuss concepts, and tackle tutorials ev
 
 ### **Week 1 — What is Machine Learning?**
 Let’s kick things off with a solid understanding of what ML actually is. You’ll learn how algorithms find patterns in data, what makes AI “intelligent,” and the key differences between traditional software and ML systems.  
-- 📘 **Beginner Reading:** [Google’s ML Crash Course](https://developers.google.com/machine-learning/crash-course)  
-- 🔬 **Advanced Reading:** [Deep Learning Book — Chapter 1](https://www.deeplearningbook.org/)  
-- 🧪 **Tutorial:** [Intro to ML in Python (Colab Notebook)](https://colab.research.google.com/github/ageron/handson-ml2/blob/master/01_the_machine_learning_landscape.ipynb)
+- 📘 **Beginner Reading:** [Google’s ML Crash Course](https://developers.google.com/machine-learning/intro-to-ml)  
+- 🔬 **Advanced Reading:** [Deep Learning Book — Chapter 1](https://www.deeplearningbook.org/contents/intro.html)  
+- 🧪 **Tutorial:** [Kaggle “Intro to ML”](https://www.kaggle.com/learn/intro-to-machine-learning)
 
 ---
 
