@@ -24,6 +24,12 @@ record_types:
   ai:
     fill: "#00fffb"
     stroke: "#00fffb"
+  computer_engineering:
+    fill: "#4A6FA5"
+    stroke: "#4A6FA5"
+  startup:
+    fill: "#D4A017"
+    stroke: "#D4A017"
 link_types:
   undefined:
     stroke: simple
