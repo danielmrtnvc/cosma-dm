@@ -1,0 +1,138 @@
+/* =============================================================
+   Cosma — Dark / Light mode toggle
+   Applied via [data-theme="dark"] on <html>
+   ============================================================= */
+
+/* ---- Override Cosma's CSS variables ---- */
+[data-theme="dark"] {
+    --offblack:               #dde1f0;
+    --offwhite:               #1c1c2e;
+    --background-gray:        #16162a;
+    --gray:                   #2e2e50;
+    --shadow:                 0 1px 3px rgba(0,0,0,0.6), 0 1px 2px rgba(0,0,0,0.8);
+    --border-color:           #2e2e50;
+    --indicator-background-color: #2e2e50;
+    --cosma-blue:             #4a90d9;
+}
+
+/* ---- Graph canvas (inline style overridden with !important) ---- */
+[data-theme="dark"] .graph-wrapper {
+    background-color: #13131f !important;
+}
+
+/* ---- Buttons ---- */
+[data-theme="dark"] .btn {
+    background-color: #24243e;
+    border-color:     #3a3a58;
+    color:            #dde1f0;
+}
+
+[data-theme="dark"] .close-button {
+    color: #888;
+}
+
+/* ---- Search input ---- */
+[data-theme="dark"] .search-bar,
+[data-theme="dark"] input[type="text"],
+[data-theme="dark"] input[type="search"],
+[data-theme="dark"] select {
+    background-color: #24243e;
+    color:            #dde1f0;
+    border-color:     #3a3a58;
+}
+
+[data-theme="dark"] input::placeholder {
+    color: #6a6a90;
+}
+
+/* ---- Checkbox filters ---- */
+[data-theme="dark"] .filter input[type="checkbox"] {
+    accent-color: #4a90d9;
+}
+
+/* ---- Links ---- */
+[data-theme="dark"] a {
+    color: #7ec8f5;
+}
+
+[data-theme="dark"] a:visited {
+    color: #a890d8;
+}
+
+/* ---- Code and pre ---- */
+[data-theme="dark"] code,
+[data-theme="dark"] pre {
+    background-color: #1e1e34;
+    color:            #a0d8a0;
+    border-color:     #3a3a58;
+}
+
+/* ---- Horizontal rules ---- */
+[data-theme="dark"] hr {
+    background: #2e2e50;
+}
+
+/* ---- Record link tooltips ---- */
+[data-theme="dark"] .record-links-context {
+    background:   #1e1e34;
+    color:        #dde1f0;
+    border-color: #3a3a58;
+}
+
+/* ---- Search highlight ---- */
+[data-theme="dark"] .highlight {
+    background-color: rgba(90, 75, 0, 0.7);
+    color:            #ffe080;
+}
+
+/* ---- SVG node labels (if not set as inline attrs) ---- */
+[data-theme="dark"] .node-label {
+    fill: #dde1f0;
+}
+
+/* ---- details/summary (type and index panels) ---- */
+[data-theme="dark"] details > summary {
+    color: #dde1f0;
+}
+
+/* ---- Badge counts ---- */
+[data-theme="dark"] .badge {
+    background-color: #2e2e50;
+    color:            #aab0d8;
+}
+
+/* =============================================================
+   Theme toggle button
+   Injected into the DOM by rebuild.ps1 post-processing
+   ============================================================= */
+#theme-toggle {
+    position:      fixed;
+    bottom:        18px;
+    left:          18px;
+    z-index:       9999;
+    width:         32px;
+    height:        32px;
+    border-radius: 50%;
+    border:        1px solid #d0d0d0;
+    background:    #f0f0f0;
+    color:         #333;
+    font-size:     15px;
+    line-height:   1;
+    cursor:        pointer;
+    display:       flex;
+    align-items:   center;
+    justify-content: center;
+    padding:       0;
+    box-shadow:    0 1px 4px rgba(0,0,0,0.18);
+    transition:    background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+[data-theme="dark"] #theme-toggle {
+    background:    #24243e;
+    border-color:  #3a3a58;
+    color:         #dde1f0;
+}
+
+#theme-toggle:hover {
+    opacity: 0.8;
+}
